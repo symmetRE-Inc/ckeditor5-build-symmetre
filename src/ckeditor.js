@@ -8,6 +8,7 @@ import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat.js';
 import AutoLink from '@ckeditor/ckeditor5-link/src/autolink.js';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
@@ -40,6 +41,7 @@ Editor.builtinPlugins = [
   AutoLink,
   BlockQuote,
   Bold,
+  Underline,
   Essentials,
   FontBackgroundColor,
   FontColor,
