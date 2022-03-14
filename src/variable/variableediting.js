@@ -46,7 +46,6 @@ export default class VariableEditing extends Plugin {
       },
       model: ( viewElement, { writer: modelWriter } ) => {
         const name = viewElement.getChild(0).data;
-        console.log(name);
 
         return modelWriter.createElement('variable', { name });
       }
