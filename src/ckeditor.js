@@ -31,6 +31,7 @@ import TableCaption from '@ckeditor/ckeditor5-table/src/tablecaption.js';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
+import Variable from './variable/variable';
 
 class Editor extends ClassicEditor {}
 
@@ -64,6 +65,7 @@ Editor.builtinPlugins = [
   TableCellProperties,
   TableProperties,
   TableToolbar,
+  Variable,
 ];
 
 export default Editor;
